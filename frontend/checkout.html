@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout — ShopEase Pro</title>
+  <meta name="description" content="Complete your purchase at ShopEase Pro with Cash on Delivery or online payment." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container page">
+    <h1 class="page-title">Checkout</h1>
+    <p class="page-sub">Enter your shipping details and choose a payment method.</p>
+
+    <form id="checkoutForm">
+      <div class="cart-layout">
+        <div>
+          <h3 style="margin-bottom:14px">Shipping Address</h3>
+          <div class="form-group"><label>Full Name</label><input type="text" id="fullName" required /></div>
+          <div class="form-group"><label>Address</label><input type="text" id="address" required placeholder="123 Main Street" /></div>
+          <div class="form-row">
+            <div class="form-group"><label>City</label><input type="text" id="city" required /></div>
+            <div class="form-group"><label>Postal Code</label><input type="text" id="postalCode" required /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Country</label><input type="text" id="country" required /></div>
+            <div class="form-group"><label>Phone</label><input type="text" id="phone" required /></div>
+          </div>
+
+          <h3 style="margin:20px 0 14px">Payment Method</h3>
+          <div class="cat-strip" style="padding:0;gap:12px">
+            <button type="button" class="cat-pill" data-pay="cod">💵 Cash on Delivery</button>
+            <button type="button" class="cat-pill" data-pay="online">💳 Online Payment (Demo)</button>
+          </div>
+
+          <div id="demoCard" style="display:none;margin-top:16px">
+            <div class="demo-note">This is a <strong>demo</strong> payment — no real card is charged.</div>
+            <div class="form-group" style="margin-top:12px"><label>Card Number</label><input type="text" value="4242 4242 4242 4242" placeholder="Card number" /></div>
+            <div class="form-row">
+              <div class="form-group"><label>Expiry</label><input type="text" value="12/30" /></div>
+              <div class="form-group"><label>CVC</label><input type="text" value="123" /></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="summary">
+          <div id="checkoutSummary"></div>
+          <button type="submit" class="btn btn-block" id="placeOrderBtn" style="margin-top:16px">Place Order</button>
+        </aside>
+      </div>
+    </form>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

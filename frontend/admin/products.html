@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage Products — ShopEase Pro Admin</title>
+  <meta name="description" content="Add, edit, delete products and manage stock." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div id="adminHeader"></div>
+
+  <main class="container page">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+      <div>
+        <h1 class="page-title">Products</h1>
+        <p class="page-sub">Add, edit and manage stock.</p>
+      </div>
+      <button class="btn" id="addProductBtn">+ Add Product</button>
+    </div>
+
+    <div id="productFormWrap" style="display:none">
+      <div class="summary" style="position:static;margin-bottom:24px">
+        <h3 id="formTitle" style="margin-bottom:16px">Add Product</h3>
+        <form id="productForm">
+          <div class="form-row">
+            <div class="form-group"><label>Name</label><input type="text" id="f_name" required /></div>
+            <div class="form-group"><label>Slug (optional)</label><input type="text" id="f_slug" placeholder="auto-generated" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Category</label><select id="catSelect"></select></div>
+            <div class="form-group"><label>Brand</label><input type="text" id="f_brand" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Price ($)</label><input type="number" id="f_price" step="0.01" required /></div>
+            <div class="form-group"><label>Old Price ($, optional)</label><input type="number" id="f_oldPrice" step="0.01" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Stock</label><input type="number" id="f_stock" required /></div>
+            <div class="form-group"><label>Image URL</label><input type="text" id="f_image" placeholder="https://..." required /></div>
+          </div>
+          <div class="form-group">
+            <label>Upload Image (optional)</label>
+            <input type="file" id="f_imageFile" accept="image/*" />
+            <small style="color:var(--muted)">Uploading a file fills the Image URL above automatically.</small>
+          </div>
+          <div class="form-group"><label>Description</label><textarea id="f_desc" rows="3"></textarea></div>
+          <div class="form-group"><label><input type="checkbox" id="f_featured" /> Featured product</label></div>
+          <div style="display:flex;gap:10px">
+            <button type="submit" class="btn">Save Product</button>
+            <button type="button" class="btn btn-outline" id="cancelForm">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Image</th><th>Name</th><th>Category</th><th>Price</th><th>Stock</th><th>Actions</th></tr></thead>
+        <tbody id="productRows"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="../js/cart.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/admin.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", loadAdminProducts);</script>
+</body>
+</html>

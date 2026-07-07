@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase Pro — Modern Online Store for Everything</title>
+  <meta name="description" content="Shop electronics, mobiles, laptops, fashion, shoes, watches and groceries at ShopEase Pro. Great prices, fast delivery, easy returns." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <h1>Everything you love, all in one store.</h1>
+        <p>From the latest tech to everyday fashion and groceries — discover 60 realistic products at unbeatable prices.</p>
+        <div class="hero-actions">
+          <a href="shop.html" class="btn">Shop Now</a>
+          <a href="shop.html?category=Electronics" class="btn btn-outline">Explore Electronics</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" alt="ShopEase Pro shopping" />
+      </div>
+    </div>
+  </section>
+
+  <main class="container page">
+    <h2 class="page-title">Shop by Category</h2>
+    <div class="cat-strip" id="catStrip"></div>
+
+    <h2 class="page-title" style="margin-top:32px">Featured Products</h2>
+    <p class="page-sub">Hand-picked favorites just for you.</p>
+    <div id="featuredGrid" class="grid"></div>
+
+    <h2 class="page-title" style="margin-top:48px">New Arrivals</h2>
+    <p class="page-sub">Fresh additions to the store.</p>
+    <div id="newGrid" class="grid"></div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/wishlist.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

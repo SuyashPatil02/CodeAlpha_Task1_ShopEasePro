@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard — ShopEase Pro</title>
+  <meta name="description" content="ShopEase Pro admin dashboard." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div id="adminHeader"></div>
+
+  <main class="container page">
+    <h1 class="page-title">Dashboard</h1>
+    <p class="page-sub">Store overview at a glance.</p>
+    <div class="stat-grid" id="stats"></div>
+
+    <h2 class="page-title" style="font-size:1.3rem">Recent Orders</h2>
+    <div id="recent" style="margin-top:14px"></div>
+  </main>
+
+  <script src="../js/cart.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/admin.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", loadAdminDashboard);</script>
+</body>
+</html>

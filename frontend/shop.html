@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop All Products — ShopEase Pro</title>
+  <meta name="description" content="Browse all products at ShopEase Pro. Search, filter by category and sort by price or rating." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container page">
+    <h1 class="page-title">Shop</h1>
+    <p class="page-sub" id="resultCount">Loading…</p>
+
+    <div class="cat-strip" id="catStrip"></div>
+
+    <div class="toolbar">
+      <input type="text" id="searchInput" placeholder="Search products…" />
+      <select id="categoryFilter">
+        <option value="all">All categories</option>
+      </select>
+      <select id="sortSelect">
+        <option value="newest">Newest</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="rating">Top Rated</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+
+    <div id="productGrid" class="grid"></div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/wishlist.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
