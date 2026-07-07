@@ -18,6 +18,8 @@ HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, an
 ## Screenshots
 
 Add screenshots of the Home, Shop, Product Details, Cart, Checkout, Orders, and Admin Dashboard pages here.
+<img width="1899" height="913" alt="image" src="https://github.com/user-attachments/assets/8763ca73-bd3e-4fbf-aef5-3c0435572de1" />
+
 
 ## Hashtags
 
