@@ -32,7 +32,12 @@ Orders:
 <img width="1722" height="910" alt="image" src="https://github.com/user-attachments/assets/34ac4498-a7d6-4e0d-8589-438548358e86" />
 <img width="1633" height="887" alt="image" src="https://github.com/user-attachments/assets/2f0e5b52-bafa-46b5-a0af-638fe27f5ada" />
 Admin Dashboard pages:
-<img width="1679" height="878" alt="image" src="https://github.com/user-attachments/assets/7a055f24-db80-4162-9fbb-7cbabec9c3af" />
+<img width="1679" height="878" alt="image" src="https://github.com/user-attachments/assets/7a055f24-db80-4162-9fbb-7cbabec9c3af" /> 
+<img width="1597" height="906" alt="image" src="https://github.com/user-attachments/assets/c5708e65-cb8f-49c8-bbd3-d9c84bdc1042" />
+order status:
+<img width="1731" height="899" alt="image" src="https://github.com/user-attachments/assets/86617ee8-ab76-4e85-83ce-28f34f02d4a5" />
+
+
 
 
 
