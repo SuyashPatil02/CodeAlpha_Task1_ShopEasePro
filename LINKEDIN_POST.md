@@ -18,7 +18,26 @@ HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, an
 ## Screenshots
 
 Add screenshots of the Home, Shop, Product Details, Cart, Checkout, Orders, and Admin Dashboard pages here.
+Home:
 <img width="1899" height="913" alt="image" src="https://github.com/user-attachments/assets/8763ca73-bd3e-4fbf-aef5-3c0435572de1" />
+Shop:
+<img width="1857" height="913" alt="image" src="https://github.com/user-attachments/assets/6d23287b-6ea3-4769-931f-1fb162b9be65" />
+Product Details:
+<img width="1662" height="897" alt="image" src="https://github.com/user-attachments/assets/3c561e07-b730-435c-886c-bb9c764f7553" />
+Cart:
+<img width="1716" height="902" alt="image" src="https://github.com/user-attachments/assets/45796092-b784-4531-8b5a-00a0b78cdb0d" />
+Checkout:
+<img width="1752" height="899" alt="image" src="https://github.com/user-attachments/assets/b2b9e5c3-fc03-4c31-a2b8-393f55d6d583" />
+Orders:
+<img width="1722" height="910" alt="image" src="https://github.com/user-attachments/assets/34ac4498-a7d6-4e0d-8589-438548358e86" />
+<img width="1633" height="887" alt="image" src="https://github.com/user-attachments/assets/2f0e5b52-bafa-46b5-a0af-638fe27f5ada" />
+Admin Dashboard pages:
+<img width="1679" height="878" alt="image" src="https://github.com/user-attachments/assets/7a055f24-db80-4162-9fbb-7cbabec9c3af" />
+
+
+
+
+
 
 
 ## Hashtags
