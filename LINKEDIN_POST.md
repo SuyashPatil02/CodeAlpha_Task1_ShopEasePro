@@ -19,7 +19,7 @@ HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, an
 
 screenshots of the Home, Shop, Product Details, Cart, Checkout, Orders, and Admin Dashboard pages here.
 Home:
-<img width="1899" height="913" alt="image" src="https://github.com/user-attachments/assets/8763ca73-bd3e-4fbf-aef5-3c0435572de1" />
+<img width="1764" height="910" alt="image" src="https://github.com/user-attachments/assets/5879aa95-e3d8-46a7-9155-6dbcf076e86f" />
 Shop:
 <img width="1857" height="913" alt="image" src="https://github.com/user-attachments/assets/6d23287b-6ea3-4769-931f-1fb162b9be65" />
 Product Details:
