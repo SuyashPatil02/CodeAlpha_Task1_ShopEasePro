@@ -11,6 +11,9 @@ ShopEase Pro is a complete full-stack e-commerce website built for the CodeAlpha
 - File Uploads: Multer
 
 
+ ## Live Demo: 
+ https://full-stack-shop.lovable.app/
+
   ## Screenshots
 
 screenshots of the Home, Shop, Product Details, Cart, Checkout, Orders, and Admin Dashboard pages here.
